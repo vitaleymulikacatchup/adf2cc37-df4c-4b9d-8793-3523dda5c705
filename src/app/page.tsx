@@ -48,7 +48,7 @@ export default function HomePage() {
           ]}
           mediaItems={[
             {
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34my1kGeblbsCcwUUCcjBY9WFkg/uploaded-1764934345464-40htgmrz.jpg",
+              videoSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34my1kGeblbsCcwUUCcjBY9WFkg/uploaded-1764946551450-czcgaty0.mp4",
               imageAlt: "Young programmer coding on laptop"
             },
             {
