@@ -56,7 +56,7 @@ export default function HomePage() {
               imageAlt: "Web development code editor"
             },
             {
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34my1kGeblbsCcwUUCcjBY9WFkg/uploaded-1764934347596-r00hjzs5.jpg",
+              videoSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34my1kGeblbsCcwUUCcjBY9WFkg/uploaded-1764947153495-rspb7gtb.mp4",
               imageAlt: "Software developer working on code"
             }
           ]}
