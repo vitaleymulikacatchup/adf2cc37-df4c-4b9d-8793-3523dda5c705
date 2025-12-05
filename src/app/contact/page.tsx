@@ -4,7 +4,6 @@ import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
 import ContactCenter from '@/components/sections/contact/ContactCenter';
 import FooterBase from '@/components/sections/footer/FooterBase';
-import Link from "next/link";
 import { Rocket } from "lucide-react";
 
 export default function ContactPage() {
@@ -30,8 +29,7 @@ export default function ContactPage() {
             { name: "Home", id: "/" },
             { name: "About", id: "/about" },
             { name: "Courses", id: "/courses" },
-            { name: "Team", id: "/team" },
-            { name: "Contact", id: "contact" }
+            { name: "Contact", id: "/contact" }
           ]}
         />
       </div>
@@ -65,7 +63,6 @@ export default function ContactPage() {
               title: "Company",
               items: [
                 { label: "About Us", href: "/about" },
-                { label: "Our Team", href: "/team" },
                 { label: "Contact", href: "/contact" }
               ]
             },

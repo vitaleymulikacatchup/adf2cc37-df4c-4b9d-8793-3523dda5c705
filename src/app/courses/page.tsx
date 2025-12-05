@@ -5,7 +5,6 @@ import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleAp
 import FeatureCardThree from '@/components/sections/feature/featureCardThree/FeatureCardThree';
 import FaqDouble from '@/components/sections/faq/FaqDouble';
 import FooterBase from '@/components/sections/footer/FooterBase';
-import Link from "next/link";
 import { BookOpen, HelpCircle } from "lucide-react";
 
 export default function CoursesPage() {
@@ -30,8 +29,7 @@ export default function CoursesPage() {
           navItems={[
             { name: "Home", id: "/" },
             { name: "About", id: "/about" },
-            { name: "Courses", id: "courses" },
-            { name: "Team", id: "/team" },
+            { name: "Courses", id: "/courses" },
             { name: "Contact", id: "/contact" }
           ]}
         />
@@ -88,7 +86,6 @@ export default function CoursesPage() {
           tagIcon={HelpCircle}
           textboxLayout="default"
           animationType="smooth"
-          showCard={true}
           faqs={[
             {
               id: "1",
@@ -141,7 +138,6 @@ export default function CoursesPage() {
               title: "Company",
               items: [
                 { label: "About Us", href: "/about" },
-                { label: "Our Team", href: "/team" },
                 { label: "Contact", href: "/contact" }
               ]
             },

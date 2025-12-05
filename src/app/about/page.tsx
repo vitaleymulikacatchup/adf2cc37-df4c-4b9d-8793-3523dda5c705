@@ -5,7 +5,6 @@ import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleAp
 import TeamCardThree from '@/components/sections/team/TeamCardThree';
 import TestimonialCardThree from '@/components/sections/testimonial/TestimonialCardThree';
 import FooterBase from '@/components/sections/footer/FooterBase';
-import Link from "next/link";
 import { Award, Star, Linkedin, Github, Twitter, Globe, Dribbble } from "lucide-react";
 
 export default function AboutPage() {
@@ -29,9 +28,8 @@ export default function AboutPage() {
           logoAlt="Happy-Coder IT School Logo"
           navItems={[
             { name: "Home", id: "/" },
-            { name: "About", id: "about" },
+            { name: "About", id: "/about" },
             { name: "Courses", id: "/courses" },
-            { name: "Team", id: "team" },
             { name: "Contact", id: "/contact" }
           ]}
         />
@@ -158,7 +156,6 @@ export default function AboutPage() {
               title: "Company",
               items: [
                 { label: "About Us", href: "/about" },
-                { label: "Our Team", href: "/team" },
                 { label: "Contact", href: "/contact" }
               ]
             },

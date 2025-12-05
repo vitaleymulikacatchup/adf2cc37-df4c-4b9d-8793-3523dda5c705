@@ -28,10 +28,10 @@ export default function HomePage() {
           logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34my1kGeblbsCcwUUCcjBY9WFkg/uploaded-1764934344167-32bisck0.png"
           logoAlt="Happy-Coder IT School Logo"
           navItems={[
-            { name: "About", id: "about" },
-            { name: "Courses", id: "courses" },
-            { name: "Team", id: "team" },
-            { name: "Contact", id: "contact" }
+            { name: "Home", id: "/" },
+            { name: "About", id: "/about" },
+            { name: "Courses", id: "/courses" },
+            { name: "Contact", id: "/contact" }
           ]}
         />
       </div>
@@ -113,7 +113,6 @@ export default function HomePage() {
               title: "Company",
               items: [
                 { label: "About Us", href: "/about" },
-                { label: "Our Team", href: "/team" },
                 { label: "Contact", href: "/contact" }
               ]
             },
